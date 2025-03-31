@@ -387,6 +387,10 @@ img {
   padding: 100px 0;
 }
 
+footer>.container {
+  display: flex;
+}
+
 .footer-logo {
   color: #4d5ae5;
   display: inline-block;
@@ -403,4 +407,21 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
+}
+
+.footer-social-media {
+  margin-left: 120px;
+  
+}
+
+.footer-social-media-text {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.footer-sprite {
+  gap: 16px;
 }
